@@ -1,7 +1,7 @@
 {
-    "name": "bagisto/imagecrop-extension",
+    "name": "bagisto/imagezoom-extension",
     "license": "MIT",
-    "description" : "The Bagisto Image Crop Extension enhances the product image management experience within the Bagisto e-commerce platform by offering a seamless solution for cropping images during both the product creation and editing processes.",
+    "description" : "Enhance your customer's shopping experience with our Product Image Zoom Extension for Bagisto. This extension allows users to see a magnified view of the product image on hover, providing a detailed and interactive visual of the product.",
     "authors": [
         {
             "name": "Kishan Kanani",
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webkul\\ImageCrop\\Providers\\ImageCropServiceProvider"
+                "Webkul\\ImageZoom\\Providers\\ImageZoomServiceProvider"
             ],
             "aliases": {}
         }
