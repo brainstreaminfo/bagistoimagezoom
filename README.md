@@ -1,4 +1,3 @@
-@@ -1,61 +0,0 @@
 # Introduction:
 
 Enhance your customer's shopping experience with our Product Image Zoom Extension for Bagisto. This extension allows users to see a magnified view of the product image on hover, providing a detailed and interactive visual of the product.
