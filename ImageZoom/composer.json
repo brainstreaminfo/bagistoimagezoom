@@ -1,0 +1,26 @@
+{
+    "name": "bagisto/imagecrop-extension",
+    "license": "MIT",
+    "description" : "The Bagisto Image Crop Extension enhances the product image management experience within the Bagisto e-commerce platform by offering a seamless solution for cropping images during both the product creation and editing processes.",
+    "authors": [
+        {
+            "name": "Kishan Kanani",
+            "email": "kishan.kanani@brainstream.tech"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\ImageCrop\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\ImageCrop\\Providers\\ImageCropServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
