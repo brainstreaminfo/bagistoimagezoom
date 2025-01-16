@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\ImageZoom\Providers;
+namespace Brainstream\ImageZoom\Providers;
 
 use Konekt\Concord\BaseModuleServiceProvider;
 

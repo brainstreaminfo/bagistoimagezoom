@@ -11,13 +11,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\ImageZoom\\": "src/"
+            "Brainstream\\ImageZoom\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Webkul\\ImageZoom\\Providers\\ImageZoomServiceProvider"
+                "Brainstream\\ImageZoom\\Providers\\ImageZoomServiceProvider"
             ],
             "aliases": {}
         }

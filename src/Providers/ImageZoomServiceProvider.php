@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\ImageZoom\Providers;
+namespace Brainstream\ImageZoom\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -20,7 +20,7 @@ class ImageZoomServiceProvider extends ServiceProvider
 
         // Override the specific view
         View::composer('shop::products.view.gallery', function ($view) {
-            $view->setPath(base_path('packages/Webkul/ImageZoom/src/Resources/views/products/view/gallery.blade.php'));
+            $view->setPath(base_path('packages/Brainstream/ImageZoom/src/Resources/views/products/view/gallery.blade.php'));
         });
     }
 
