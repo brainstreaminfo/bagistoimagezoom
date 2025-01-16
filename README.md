@@ -37,18 +37,18 @@ Enhance your customer's shopping experience with our Product Image Zoom Extensio
 * Composer 2.6.3 or higher
 
 # Installation :
-Unzip the respective extension zip and then merge "packages" folder into project root directory rename the Extract folder to ImageZoom
+Unzip the Brainstream.zip file and move the extracted folder to the bagisto/packages directory.
 
 * Goto config/app.php file and add following line under 'providers'
 
 ```
-Webkul\ImageZoom\Providers\ImageZoomServiceProvider::class
+Brainstream\ImageZoom\Providers\ImageZoomServiceProvider::class
 ```
 
 * Goto composer.json file and add following line under 'psr-4'
 
 ```
-"Webkul\\ImageZoom\\": "packages/Webkul/ImageZoom/src"
+"Brainstream\\ImageZoom\\": "packages/Brainstream/ImageZoom/src"
 ```
 * Run these below commands to complete the setup:
 
